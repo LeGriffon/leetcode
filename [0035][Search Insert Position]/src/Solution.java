@@ -5,6 +5,7 @@ public class Solution {
         int low = 0;
         int high = nums.length - 1;
         while(low <= high){
+        	//Binary search: finding mid index with int mid = low + (high - low)/2; to avoid overflow
             int mid = low + (high - low)/2;
             if(nums[mid] == target) {
                 return mid;
