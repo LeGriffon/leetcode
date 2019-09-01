@@ -17,6 +17,9 @@
 <item elementID="=\[0050\]\[Pow\(x, n)&#x0A;\]/src" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=\[0051\]\[N-Queens\]/src" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=\[0053\]\[Maximum Subarray\]/src" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=\[0055\]\[Jump Game\]/src" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=\[0058\]\[Length of Last Word\]/src" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=\[0056\]\[Merge Intervals\]/src" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 </workingSet>
 <workingSet editPageId="org.eclipse.jdt.internal.ui.DynamicSourcesWorkingSet" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1566548902914_1" label="Java Test Sources" name="Java Test Sources"/>
 <workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1566548903626_2" label="Window Working Set" name="Aggregate for window 1566548903626"/>
