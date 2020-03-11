@@ -27,22 +27,37 @@ public class Solution {
 			return range;
 		}
 		range[0] = leftIndex;
-		range[1] = searchHelper(nums, target, false) - 1;
+		range[1] = searchHelper(nums, target, false);
 
 		return range;
 	}
 
 	private int searchHelper(int[] nums, int target, boolean findingLeft) {
 		int low = 0;
-		int high = nums.length;
-		while (low < high) {
+		int high = nums.length - 1;
+		while (low + 1 < high) {
 			int mid = low + (high - low) / 2;
 			if (nums[mid] > target || (findingLeft && nums[mid] == target)) {
 				high = mid;
 			} else {
-				low = mid + 1;
+				low = mid;
 			}
 		}
-		return low;
+		if(findingLeft) {
+            if(nums[low] == target) {
+                return low;
+            }
+            else {
+                return high;
+            }
+        }
+        else {
+            if(nums[high] == target) {
+                return high;
+            }
+            else {
+                return low;
+            }
+        }
 	}
 }
