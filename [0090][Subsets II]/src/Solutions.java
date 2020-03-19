@@ -12,7 +12,7 @@ public class Solutions {
         return list;
     }
     private void backtracking(List<List<Integer>> list, ArrayList<Integer> tempList, int[] nums, int start) {
-        list.add(new ArrayList(tempList));
+        list.add(new ArrayList<>(tempList));
         for(int i = start; i < nums.length; i++) {
             if(i > start && nums[i] == nums[i - 1]) continue;
             tempList.add(nums[i]);

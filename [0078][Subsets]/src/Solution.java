@@ -1,19 +1,20 @@
-import java.util.*;
+import java.util.Arrays;
+import java.util.List;
+import java.util.ArrayList;
+
 public class Solution {
-	/*
-	 * Backtracking with a start index keeping track of which number to build next subset
-	 */
-    public List<List<Integer>> subsets(int[] nums) {
-        List<List<Integer>> list = new ArrayList<>();
+    public List<List<Integer>> subsets(final int[] nums) {
         Arrays.sort(nums);
-        backtracking(list, new ArrayList<Integer>(), nums, 0);
-        return list;
+        List<List<Integer>> result = new ArrayList<>();
+        backtracking(new ArrayList<>(), result, nums, 0);
+        return result;
     }
-    private void backtracking(List<List<Integer>> list, ArrayList<Integer> tempList, int[] nums, int start) {
-        list.add(new ArrayList<>(tempList));
+
+    private void backtracking(List<Integer> tempList, List<List<Integer>> result, final int[] nums, int start) {
+        result.add(new ArrayList<Integer>(tempList));
         for(int i = start; i < nums.length; i++) {
             tempList.add(nums[i]);
-            backtracking(list, tempList, nums, i + 1);
+            backtracking(tempList, result, nums, i + 1);
             tempList.remove(tempList.size() - 1);
         }
     }

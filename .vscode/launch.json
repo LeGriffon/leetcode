@@ -1,0 +1,222 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - App",
+            "request": "launch",
+            "mainClass": "App",
+            "projectName": "[0078][Subsets]"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch) - Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-App<[0017][Letter Combinations of a Phone Number]>",
+            "request": "launch",
+            "mainClass": "app.App",
+            "projectName": "[0017][Letter Combinations of a Phone Number]"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-App<[0021][Merge Two Sorted Lists]>",
+            "request": "launch",
+            "mainClass": "app.App",
+            "projectName": "[0021][Merge Two Sorted Lists]"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-App<[0023][Merge k Sorted Lists]>",
+            "request": "launch",
+            "mainClass": "app.App",
+            "projectName": "[0023][Merge k Sorted Lists]"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-App<[0034][Find First and Last Position of Element in Sorted Array]>",
+            "request": "launch",
+            "mainClass": "App",
+            "projectName": "[0034][Find First and Last Position of Element in Sorted Array]"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-App<[0042][Trapping Rain Water]>",
+            "request": "launch",
+            "mainClass": "app.App",
+            "projectName": "[0042][Trapping Rain Water]"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-App<[0049][Group Anagrams]>",
+            "request": "launch",
+            "mainClass": "App",
+            "projectName": "[0049][Group Anagrams]"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-App<[0068][Text Justification]>",
+            "request": "launch",
+            "mainClass": "app.App",
+            "projectName": "[0068][Text Justification]"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-App<[0076][Minimum Window Substring]>",
+            "request": "launch",
+            "mainClass": "app.App",
+            "projectName": "[0076][Minimum Window Substring]"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-App<[0078][Subsets]>",
+            "request": "launch",
+            "mainClass": "App.App",
+            "projectName": "[0078][Subsets]"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-App<[0146][LRU Cache]>",
+            "request": "launch",
+            "mainClass": "app.App",
+            "projectName": "[0146][LRU Cache]"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-App<[0155][Min Stack]>",
+            "request": "launch",
+            "mainClass": "app.App",
+            "projectName": "[0155][Min Stack]"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-App<[0224][Basic Calculator]>",
+            "request": "launch",
+            "mainClass": "app.App",
+            "projectName": "[0224][Basic Calculator]"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-App<[0227][Basic Calculator II]>",
+            "request": "launch",
+            "mainClass": "app.App",
+            "projectName": "[0227][Basic Calculator II]"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-App<[0253][Meeting Rooms II]>",
+            "request": "launch",
+            "mainClass": "app.App",
+            "projectName": "[0253][Meeting Rooms II]"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-App<[0295][Find Median from Data Stream]>",
+            "request": "launch",
+            "mainClass": "app.App",
+            "projectName": "[0295][Find Median from Data Stream]"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-App<[0297][Serialize and Deserialize Binary Tree]>",
+            "request": "launch",
+            "mainClass": "app.App",
+            "projectName": "[0297][Serialize and Deserialize Binary Tree]"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-App<[0322][Coin Change]>",
+            "request": "launch",
+            "mainClass": "app.App",
+            "projectName": "[0322][Coin Change]"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-App<[0332][Reconstruct Itinerary]>",
+            "request": "launch",
+            "mainClass": "app.App",
+            "projectName": "[0332][Reconstruct Itinerary]"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-App<[0348][Design Tic-Tac-Toe]>",
+            "request": "launch",
+            "mainClass": "app.App",
+            "projectName": "[0348][Design Tic-Tac-Toe]"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-App<[0399][Evaluate Division]>",
+            "request": "launch",
+            "mainClass": "app.App",
+            "projectName": "[0399][Evaluate Division]"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-App<[0468][Validate IP Address]>",
+            "request": "launch",
+            "mainClass": "app.App",
+            "projectName": "[0468][Validate IP Address]"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-App<[0621][Task Scheduler]>",
+            "request": "launch",
+            "mainClass": "app.App",
+            "projectName": "[0621][Task Scheduler]"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-App<[0636][Exclusive Time of Functions]>",
+            "request": "launch",
+            "mainClass": "app.App",
+            "projectName": "[0636][Exclusive Time of Functions]"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-App<[0652][Find Duplicate Subtrees]>",
+            "request": "launch",
+            "mainClass": "app.App",
+            "projectName": "[0652][Find Duplicate Subtrees]"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-App<[0655][Print Binary Tree]>",
+            "request": "launch",
+            "mainClass": "app.App",
+            "projectName": "[0655][Print Binary Tree]"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-App<[0759][Employee Free Time]>",
+            "request": "launch",
+            "mainClass": "app.App",
+            "projectName": "[0759][Employee Free Time]"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-App<[0895][Maximum Frequency Stack]>",
+            "request": "launch",
+            "mainClass": "app.App",
+            "projectName": "[0895][Maximum Frequency Stack]"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-App",
+            "request": "launch",
+            "mainClass": "Solution.App"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-App(1)",
+            "request": "launch",
+            "mainClass": "app.App"
+        }
+    ]
+}
