@@ -9,6 +9,13 @@
             "name": "CodeLens (Launch) - App",
             "request": "launch",
             "mainClass": "App",
+            "projectName": "[0056][Merge Intervals]"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - App",
+            "request": "launch",
+            "mainClass": "App",
             "projectName": "[0078][Subsets]"
         },
         {
