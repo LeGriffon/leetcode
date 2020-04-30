@@ -24,21 +24,18 @@ public class Solution {
 	 * 
 	 */
 	public String countAndSay(int n) {
-		String say = "1";
-		while (--n > 0) {
-			StringBuilder sb = new StringBuilder();
-
-			char[] oldSay = say.toCharArray();
-			for (int i = 0; i < oldSay.length; i++) {
-				int count = 1;
-				while (oldSay.length > (i + 1) && oldSay[i] == oldSay[i + 1]) {
-					count++;
-					i++;
-				}
-				sb.append(String.valueOf(count) + String.valueOf(oldSay[i]));
-			}
-			say = sb.toString();
+		if(n == 1) return "1";
+		String prev = countAndSay(n - 1);
+		StringBuilder sb = new StringBuilder();
+		int i = 0;
+		while(i < prev.length()) {
+			char curr = prev.charAt(i);
+			int j = 0;
+			while(i + j < prev.length() && curr == prev.charAt(i + j)) j++;
+			sb.append(j);
+			sb.append(curr);
+			i += j;
 		}
-		return say;
+		return sb.toString();
 	}
 }
