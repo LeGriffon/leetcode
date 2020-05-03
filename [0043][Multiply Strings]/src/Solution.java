@@ -11,20 +11,22 @@ public class Solution {
 		int length1 = num1.length();
 		int length2 = num2.length();
 		int[] pos = new int[length1 + length2];
-		for (int i = length1 - 1; i >= 0; i--) {
-			for (int j = length2 - 1; j >= 0; j--) {
-				int mul = (num1.charAt(i) - '0') * (num2.charAt(j) - '0');
-				int pos1 = i + j;
-				int pos2 = i + j + 1;
-				int sum = mul + pos[pos2];
 
-				pos[pos1] += sum / 10;
-				pos[pos2] = sum % 10;
+		for(int i = length1 - 1; i >= 0; i--) {
+			for(int j = length2 - 1; j >= 0; j--) {
+				int mul = (num1.charAt(i) - '0') * (num2.charAt(j) - '0');
+				int p1 = i + j;
+				int p2 = i + j + 1;
+				int sum = pos[p2] + mul;
+
+				pos[p1] += sum / 10;
+				pos[p2] = sum % 10;
 			}
 		}
+
 		StringBuilder sb = new StringBuilder();
-		for (int n : pos) {
-			if (!(sb.length() == 0 && n == 0)) {
+		for(int n : pos) {
+			if(!(sb.length() == 0 && n == 0)) {
 				sb.append(n);
 			}
 		}
