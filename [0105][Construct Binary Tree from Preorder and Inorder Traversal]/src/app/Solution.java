@@ -4,13 +4,11 @@ import java.util.*;
 
 public class Solution {
     private int[] preorder;
-    private int[] inorder;
     private Map<Integer, Integer> indexMap;
     private int preorderIndex;
     
     public TreeNode buildTree(int[] preorder, int[] inorder) {
         this.preorder = preorder;
-        this.inorder = inorder;
         this.indexMap = new HashMap<>();
         this.preorderIndex = 0;
         for(int i = 0; i < inorder.length; i++) {
