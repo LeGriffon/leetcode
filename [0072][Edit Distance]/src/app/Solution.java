@@ -21,13 +21,13 @@ public class Solution {
 
         for(int i = 1; i <= n; i++) {
             for(int j = 1; j <= m; j++) {
-                int left = dp[i][j - 1] +1;
-                int up = dp[i - 1][j] + 1;
+                int left = dp[i][j - 1];
+                int up = dp[i - 1][j];
                 int up_left = dp[i - 1][j - 1];
-                if(word1.charAt(i - 1) != word2.charAt(j - 1)) {
-                    up_left += 1;
+                if(word1.charAt(i - 1) == word2.charAt(j - 1)) {
+                    up_left -= 1;
                 }
-                dp[i][j] = Math.min(up_left, Math.min(left, up));
+                dp[i][j] = 1 + Math.min(up_left, Math.min(left, up));
             }
         }
         return dp[n][m];
