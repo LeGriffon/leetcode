@@ -19,6 +19,21 @@ public class Solution {
     }
 }
 
+// Using recursive inorder traversal
+// class Solution {
+//     Integer inorder = null;
+//     public boolean isValidBST(TreeNode root) {
+//         if(root == null) return true;
+//         boolean left = isValidBST(root.left);
+//         if(inorder != null) {
+//             if(root.val <= inorder) return false;
+//         }
+//         inorder = root.val;
+//         boolean right = isValidBST(root.right);
+//         return left && right;
+//     }
+// }
+
 class TreeNode {
     int val;
     TreeNode left;
